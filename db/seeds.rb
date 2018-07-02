@@ -6,3 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 the_room = Movie.create(title: "The Room", release_year: 2003, director: "Tommy Wiseau", rtscore: 13)
+tommy = Actor.create(name: "Tommy Wiseau")
